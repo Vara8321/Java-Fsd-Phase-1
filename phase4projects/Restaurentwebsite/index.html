@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Diner</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+    <div class="container">
+        <h1>Welcome to BootStrap Diner</h1>
+        <p>A cozy place to enjoy delicious food with family and friends.</p>
+    
+        <!-- Carousel for Popular Dishes -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="restaurentimages/cover4.jpg"  height="390px" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="restaurentimages/cover5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="restaurentimages/cover6.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BootStrap Diner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Contact Us: contact@bootstrapdiner.com</span>
+        </div>
+    </footer>
+    <div id="menu" class="container">
+        <h2>Our Bestsellers</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="restaurentimages/food1.jpg" class="img-fluid" alt="Bestseller 1">
+                <h4>Burger</h4>
+                <p>Available in veg and non-veg.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="restaurentimages/food2.jpg" class="img-fluid" alt="Bestseller 2">
+                <h4>Pizza</h4>
+                <p>Available in veg and non-veg.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="restaurentimages/food3.jpg" class="img-fluid" alt="Bestseller 3">
+                <h4>French Fries</h4>
+                <p>Crispy and Tasty Fries.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a href="#contact" class="btn btn-primary btn-lg">Make a Reservation</a>
+    </div>
+    <div id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+    </body>
+    </html>

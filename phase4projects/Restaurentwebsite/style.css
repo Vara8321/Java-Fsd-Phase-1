@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    padding: 20px 0; /* Add padding */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333; /* Set text color for navbar links */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #666; /* Change text color on hover */
+}
+.footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Add padding */
+}
+.carousel {
+    width: 100%; /* Make the carousel full width */
+    margin-bottom: 20px; /* Add space below the carousel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #333; /* Set color of carousel controls */
+}
+
+.carousel-indicators li {
+    background-color: #333; /* Set background color of carousel indicators */
+}
+
+.carousel-indicators .active {
+    background-color: #fff; /* Set background color of active indicator */
+}
+.form-group {
+    margin-bottom: 20px; /* Add space between form groups */
+}
+
+.form-control {
+    width: 100%; /* Make form inputs full width */
+}
+
+.btn-primary {
+    background-color: #333; /* Set background color for primary button */
+    border-color: #333; /* Set border color for primary button */
+}
+
+.btn-primary:hover {
+    background-color: #666; /* Change background color on hover */
+    border-color: #666; /* Change border color on hover */
+}
