@@ -1,0 +1,19 @@
+<script>
+
+    let luckyNo;
+
+    (
+        function f1() {
+
+            luckyNo = Math.random();
+            // do some secure communication here.
+            console.log(luckyNo);
+
+        }
+    )();
+
+    document.write("Lucky No  is "+ luckyNo);
+
+    f1(); // ERROR
+
+</script>
