@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T09:18:06 IST" name="Suite" finished-at="2024-03-07T09:18:32 IST" duration-ms="26621">
+    <groups>
+      <group name="smoke">
+        <method signature="DummyTest.f2()[pri:0, instance:com.sl.DummyTest@6b68cb27]" name="f2" class="com.sl.DummyTest"/>
+        <method signature="DummyTest.f5()[pri:0, instance:com.sl.DummyTest@6b68cb27]" name="f5" class="com.sl.DummyTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-07T09:18:06 IST" name="Test" finished-at="2024-03-07T09:18:32 IST" duration-ms="26621">
+      <class name="com.sl.DummyTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:17:50 IST" name="beforeSuite" finished-at="2024-03-07T09:17:56 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="f2()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:18:06 IST" name="f2" finished-at="2024-03-07T09:18:06 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method signature="f5()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:18:06 IST" name="f5" finished-at="2024-03-07T09:18:06 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f5 -->
+        <test-method signature="f6()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:18:06 IST" name="f6" finished-at="2024-03-07T09:18:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f6 -->
+        <test-method signature="f4()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:18:06 IST" name="f4" depends-on-groups="smoke" finished-at="2024-03-07T09:18:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method signature="f1()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:18:06 IST" name="f1" finished-at="2024-03-07T09:18:06 IST" depends-on-methods="com.sl.DummyTest.f6, com.sl.DummyTest.f4" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.sl.DummyTest@6b68cb27]" started-at="2024-03-07T09:18:33 IST" name="afterSuite" finished-at="2024-03-07T09:18:35 IST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sl.DummyTest -->
+      <class name="com.sl.GoogleSearch">
+        <test-method is-config="true" signature="myBeforeSuite()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:06 IST" name="myBeforeSuite" finished-at="2024-03-07T09:18:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeSuite -->
+        <test-method is-config="true" signature="myBeforeTest()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:06 IST" name="myBeforeTest" finished-at="2024-03-07T09:18:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeTest -->
+        <test-method is-config="true" signature="myBeforeClass()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:06 IST" name="myBeforeClass" finished-at="2024-03-07T09:18:26 IST" duration-ms="19866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeClass -->
+        <test-method is-config="true" signature="myBeforeMethod()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:26 IST" name="myBeforeMethod" finished-at="2024-03-07T09:18:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeMethod -->
+        <test-method is-config="true" signature="myBeforeMethod()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:26 IST" name="myBeforeMethod" finished-at="2024-03-07T09:18:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBeforeMethod -->
+        <test-method signature="testGoogleSearchTextFeildContainsFlowers()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:26 IST" name="testGoogleSearchTextFeildContainsFlowers" finished-at="2024-03-07T09:18:30 IST" duration-ms="4616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearchTextFeildContainsFlowers -->
+        <test-method signature="searchGoogleAndTestTitleText()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:26 IST" name="searchGoogleAndTestTitleText" finished-at="2024-03-07T09:18:30 IST" duration-ms="4517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogleAndTestTitleText -->
+        <test-method is-config="true" signature="myAfterMethod()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:30 IST" name="myAfterMethod" finished-at="2024-03-07T09:18:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterMethod -->
+        <test-method is-config="true" signature="myAfterMethod()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:30 IST" name="myAfterMethod" finished-at="2024-03-07T09:18:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterMethod -->
+        <test-method is-config="true" signature="myAfterClass()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:30 IST" name="myAfterClass" finished-at="2024-03-07T09:18:32 IST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterClass -->
+        <test-method is-config="true" signature="myAfterTest()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:32 IST" name="myAfterTest" finished-at="2024-03-07T09:18:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterTest -->
+        <test-method is-config="true" signature="myAfterSuite()[pri:0, instance:com.sl.GoogleSearch@1f1cae23]" started-at="2024-03-07T09:18:39 IST" name="myAfterSuite" finished-at="2024-03-07T09:18:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterSuite -->
+      </class> <!-- com.sl.GoogleSearch -->
+      <class name="com.sl.GoogleRegistration">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sl.GoogleRegistration@45792847]" started-at="2024-03-07T09:18:01 IST" name="beforeSuite" finished-at="2024-03-07T09:18:06 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="googleNewAccCreation(java.lang.String,java.lang.String)[pri:0, instance:com.sl.GoogleRegistration@45792847]" started-at="2024-03-07T09:18:06 IST" name="googleNewAccCreation" data-provider="googleNewUserData" finished-at="2024-03-07T09:18:14 IST" duration-ms="8412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Varma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleNewAccCreation -->
+        <test-method signature="googleNewAccCreation(java.lang.String,java.lang.String)[pri:0, instance:com.sl.GoogleRegistration@45792847]" started-at="2024-03-07T09:18:14 IST" name="googleNewAccCreation" data-provider="googleNewUserData" finished-at="2024-03-07T09:18:17 IST" duration-ms="2427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sarma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleNewAccCreation -->
+        <test-method signature="googleNewAccCreation(java.lang.String,java.lang.String)[pri:0, instance:com.sl.GoogleRegistration@45792847]" started-at="2024-03-07T09:18:17 IST" name="googleNewAccCreation" data-provider="googleNewUserData" finished-at="2024-03-07T09:18:19 IST" duration-ms="2171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shalini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleNewAccCreation -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.sl.GoogleRegistration@45792847]" started-at="2024-03-07T09:18:37 IST" name="afterSuite" finished-at="2024-03-07T09:18:39 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sl.GoogleRegistration -->
+      <class name="com.sl.FBRegistration">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sl.FBRegistration@6dd91637]" started-at="2024-03-07T09:17:56 IST" name="beforeSuite" finished-at="2024-03-07T09:18:01 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="fbAccount()[pri:0, instance:com.sl.FBRegistration@6dd91637]" started-at="2024-03-07T09:18:06 IST" name="fbAccount" finished-at="2024-03-07T09:18:15 IST" duration-ms="9171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbAccount -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.sl.FBRegistration@6dd91637]" started-at="2024-03-07T09:18:35 IST" name="afterSuite" finished-at="2024-03-07T09:18:37 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sl.FBRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
