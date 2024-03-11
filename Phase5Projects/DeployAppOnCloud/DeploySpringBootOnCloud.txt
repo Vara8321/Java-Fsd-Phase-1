@@ -1,0 +1,49 @@
+//Entire Flow to deploy Spring boot application on cloud//
+
+
+-->Create a simple spring boot application. 
+
+--> make the jar file
+mvn clean install
+
+
+-->Create S3 bucket with public access and upload the jar file.
+
+
+-->CREATE AN EC2 INSTANCE, SELECT AMAZON MACHINE IMAGEING, AND SOME DEFAULTS, CREATE INSTANCE
+
+-->Connect INSTANCE
+
+
+for connecting through laptop:-
+
+CONNECTING FROM YOUR LAPTOP
+STEP 1 Locate your .pem file. Make a note.
+
+--> ssh -i Downloads\MY-EC2-08-02-24.pem ec2-user@43.204.142.122
+
+Replace 43.204.142.122 with your EC2’s public IP address.
+Replace MY-EC2-08-02-24.pem with your key-pair file
+
+
+-->Install java 17:
+sudo dnf install java-17-amazon-corretto
+
+
+-->get jar from S3 Bucket
+wget https://springbootawsbucket222.s3.amazonaws.com/springboot/spring-boot-aws-example.jar
+
+
+-->Make the jar file also public
+
+
+-->Change security group, and new rule to access port number "7999".
+
+
+-->run jar file
+java -jar spring-boot-aws-example.jar
+
+
+-->copy public IP Address to see output on Browser
+http://ec2-3-86-251-184.compute-1.amazonaws.com:7999/
+
